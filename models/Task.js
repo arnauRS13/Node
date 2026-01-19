@@ -1,4 +1,3 @@
-// model basic de tasca
 
 const mongoose = require("mongoose");
 
