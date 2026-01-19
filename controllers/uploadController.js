@@ -1,6 +1,4 @@
-// controllers/uploadController.js
 
-// config cloudinary
 const cloudinary = require("../config/cloudinary");
 
 // pujada local /uploads
