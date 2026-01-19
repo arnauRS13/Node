@@ -2,26 +2,26 @@
 const mongoose = require("mongoose");
 
 const taskSchema = new mongoose.Schema({
-  // titol obligatori
+  // titol 
   title: {
     type: String,
     required: true,
   },
-  // descripcio opcional
+  // descripcio 
   description: {
     type: String,
   },
-  // cost obligatori
+  // cost 
   cost: {
     type: Number,
     required: true,
   },
-  // hores previstes obligatories
+  // hores previstes 
   hours_estimated: {
     type: Number,
     required: true,
   },
-  // hores reals opcionals
+  // hores reals 
   hours_real: {
     type: Number,
   },
@@ -29,7 +29,7 @@ const taskSchema = new mongoose.Schema({
   image: {
     type: String,
   },
-  // estat completada
+  // estat 
   completed: {
     type: Boolean,
     default: false,
